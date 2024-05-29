@@ -23,6 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
+    pricewise,
+    sumz,
+    aimeds,
+    rentaride,
+    metaverse,
+    pokedex
   } from "../assets";
   
   export const navLinks = [
@@ -198,7 +204,7 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Rent A Ride",
       description:
         "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
       tags: [
@@ -215,7 +221,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: rentaride,
       source_code_link: "https://github.com/",
     },
     {
@@ -236,7 +242,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: pricewise,
       source_code_link: "https://github.com/",
     },
     {
@@ -257,7 +263,71 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: aimeds,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: metaverse,
+      source_code_link: "https://github.com/",
+    }
+    ,
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sumz,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Trip Guide",
+      description:
+        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      tags: [
+        {
+          name: "nextjs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "supabase",
+          color: "green-text-gradient",
+        },
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: pokedex,
       source_code_link: "https://github.com/",
     },
   ];
